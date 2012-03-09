@@ -6,8 +6,8 @@ OBJCOPY := "$(shell which arm-elf-objcopy 2>/dev/null)"
 ifeq (${OBJCOPY},"")
 	OBJCOPY := arm-none-eabi-objcopy
 endif
-EXE = jpeg.tns
-OBJS = stb_image.o main.o frame.o file.o timer.o
+EXE = nspiremovieplayer.tns
+OBJS = stb_image.o main.o frame.o file.o timer.o config.o
 
 HOSTCC = gcc
 HOSTCFLAGS =

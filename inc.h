@@ -5,6 +5,10 @@
 inline uint32_t file_read_uint32(FILE*fp);
 void header_read(FILE*fp);
 
+/* Config file */
+int config_file_already_written();
+void write_config_file();
+
 /* Frame decoding */
 void process_next_frame(FILE*fp);
 
