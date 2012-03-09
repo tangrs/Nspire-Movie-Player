@@ -2,4 +2,5 @@
 *.elf
 *.o
 *.tns
+moviecompile
 rubbish/*
