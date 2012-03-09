@@ -31,4 +31,4 @@ helper:
 
 clean:
 	rm -f *.o *.elf
-	rm -f $(EXE)
+	rm -f $(EXE) $(HELPEREXE)
