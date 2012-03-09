@@ -7,7 +7,7 @@ ifeq (${OBJCOPY},"")
 	OBJCOPY := arm-none-eabi-objcopy
 endif
 EXE = jpeg.tns
-OBJS = stb_image.o main.o
+OBJS = stb_image.o main.o frame.o file.o timer.o
 DISTDIR = .
 vpath %.tns $(DISTDIR)
 
