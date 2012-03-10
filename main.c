@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
         if (!feof(fp)) {
             process_next_frame(fp);
         }else{
-            rewind(fp);
+            movie_rewind(fp);
         }
         tick_timer();
     }

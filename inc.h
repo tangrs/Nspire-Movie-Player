@@ -4,6 +4,7 @@
 /* File reading */
 inline uint32_t file_read_uint32(FILE*fp);
 void header_read(FILE*fp);
+void movie_rewind(FILE*fp);
 
 /* Config file */
 int config_file_already_written();
