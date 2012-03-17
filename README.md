@@ -2,6 +2,8 @@
 
 This is a movie player for the NSpire calculator. http://youtu.be/Yx0L7ce5hq4
 
+Precompiled binaries are available for download at http://www.omnimaga.org/index.php?topic=12855.0
+
 ## Status
 
 At the moment, this is working for the NSpire CX. Porting to the older models is underway (and should work but is untested)
